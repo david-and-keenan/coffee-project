@@ -17,7 +17,7 @@ function renderCoffee(coffee) {
 }
 
 function renderCoffeeSelect(coffee) {
-    var html = "<option value='" + coffee.name + "'>";
+    var html = "<option value=\"" + coffee.name + "\">";
     html += "" + coffee.name;
     html += "</option>";
 
